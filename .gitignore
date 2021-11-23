@@ -1,0 +1,4 @@
+.vscode
+leetcode.cpp
+*.o
+*.exe
