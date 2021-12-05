@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "algs.h"
+#include "./include/algs.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@ main:main.o algs.o
 	
 main.o:main.cpp
 	g++ -c main.cpp -o main.o
-algs.o:algs.cpp algs.h
+algs.o:algs.cpp ./include/algs.h
 	g++ -c algs.cpp -o algs.o
 
 clean:

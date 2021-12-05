@@ -1,4 +1,4 @@
-#include "algs.h"
+#include "./include/algs.h"
 
 int simpleStrStr(string master, string pattern) {
     if (argsCheckout(master, pattern)) {
