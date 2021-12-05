@@ -31,7 +31,7 @@ int kmpStrStr(string master, string pattern) {
     vector<int> next(pattern.length());
     next[0] = -1;
     int start = -1, index = 0;
-    while (index < pattern.length()) {
+    while (index < pattern.length()-1) {
         if (start == -1 || pattern[start] == pattern[index]) {
             start++;
             index++;
@@ -96,7 +96,7 @@ int hashTreeStrStr(string master, string pattern) {
     if (argsCheckout(master, pattern)) {
         return ERROR_RET;
     }
-    
+
     return ERROR_RET;
 }
 

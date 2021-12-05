@@ -11,7 +11,6 @@
 const unsigned int MODULUS = 0xffffffff;
 const int CODE_NUM = 26;
 const char CODE_OFFSET = 'a';
-int primes[10] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
 
 using namespace std;
 
